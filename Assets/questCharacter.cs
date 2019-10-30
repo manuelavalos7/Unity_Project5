@@ -51,7 +51,7 @@ public class questCharacter : MonoBehaviour
                         GameObject.Find("speechBox").GetComponentInChildren<Text>().text = quests[current_quest].quest_thank;
                         Player.increase_points(10);
                         current_quest++;
-                        Start();
+                        
                     }
                 }
                 player_near = true;
